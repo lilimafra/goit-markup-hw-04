@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --brandcolor: #2196f3;
+  --basecolor: #212121;
+}
+
+h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.contact li {
+  font-weight: 500;
+  color: #757575;
+  line-height: 1.7142;
+  letter-spacing: 0.02em;
+  padding: 0px;
+}
+
+.surf {
+  font-weight: 500;
+  color: var(--basecolor);
+  display: flex;
+  gap: 50px;
+}
+
+a:link {
+  text-decoration: none;
+  color: currentcolor;
+}
+
+a:visited {
+  color: currentColor;
+  text-decoration: none;
+  line-height: 1.7;
+}
+
+a:hover {
+  color: var(--brandcolor);
+  text-decoration: none;
+}
+
+footer .logo,
+header .logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  text-decoration: none;
+  color: var(--brandcolor);
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding-right: 93px;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  color: #ffffff;
+  width: 696px;
+  display: block;
+  margin: 0 auto;
+  padding: 0px;
+  padding-bottom: 30px;
+  line-height: 1.363;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  padding-bottom: 55px;
+  padding-top: 55px;
+  line-height: 1.166em;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.partner {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  line-height: 18.75px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.services{
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: left;
+  padding-top: 95px;
+  gap: 37px;
+}
+
+
+.services h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  font-family: "Roboto", sans-serif;
+  text-transform:uppercase;
+}
+
+.buttonpro {
+  background-color: #f5f4fa;
+  color: var(--basecolor);
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+  width: 128px;
+  gap: 8px;
+  height: 38px;
+}
+
+.buttonpro:hover {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+  filter: drop-shadow(0px 2px 2px rgba(7, 7, 7, 0.12));
+}
+
+.activebutton {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+  filter: drop-shadow(0px 2px 2px rgba(0,0,0,0.25));
+}
+
+.servicebutton {
+  background-color: var(--brandcolor);
+  color: #ffffff;
+  cursor: pointer;
+  border: 15px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.8;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  border-radius: 4px;
+  gap: 10px;
+}
+
+address {
+  text-decoration: none;
+  font-style: normal;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.products {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--basecolor);
+  line-height: 2;
+}
+
+.productsd{
+  line-height: 1;
+  margin-top: 7px;
+  
+
+}
+.projects{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+
+  }
+
+.projects li {
+  cursor: pointer;
+}
+
+.margin1 {
+  background-color: #2f303a;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25))
+  }
+
+.margin2 {
+  background-color: #f5f4fa;
+  height: 648px;
+  display: flex;
+  margin: 0;
+
+}
+
+.team {
+  display: flex;
+  justify-content: center;
+  gap: 37px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header .active {
+  color: var(--brandcolor);
+}
+
+footer .mt {
+  color: #afb1b8;
+  line-height: 1.7;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.mt:hover {
+  color: var(--brandcolor);
+  text-decoration: none;
+}
+
+.text {
+  line-height: 1.7;
+  color: #757575;
+  margin-top: 10px;
+}
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.containerteam{
+  background-color: #F5F4FA;
+  height: 648px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+}
+.boxteam{
+  background-color: #ffffff;
+  height: 368px;
+  width: 270px;
+  gap: 50px;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 1px 1px rgba(0, 0, 0, 0.16);
+}
+
+.headb {
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  align-items: center;
+}
+
+.cont_nav {
+  display: flex;
+}
+.surf a{
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7142em;
+  letter-spacing: 0.02em;
+
+}
+
+.contact{
+  display: flex;
+}
+.contact_li{
+  display: flex;
+  gap: 50px;
+}
+
+.Cont_Img {
+display: flex;
+gap: 30.26px;
+padding: 0;
+}
+
+
+.button_ser{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 8px ;
+  padding-bottom: 50px;
+  padding-top: 106px;
+}
+.box_service{
+width:370px ;
+
+}
+
+.projects>li{
+  background: #ffffff;
+  line-height: 0;
+}
+.box_element{
+  border: 1px solid #EEEEEE;
+  height: 100px;
+}
+
+.projects>li:hover{
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 1px 1px rgba(0, 0, 0, 0.16);
+}
+.job {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin: 0px;
+}
+
+.projects .job{
+  text-align:left;
+  margin-left:24px;
+  margin-bottom: 20px;
+}
+.projects .products{
+  text-align: left;
+  margin-left: 24px;
+  margin-bottom: 4px;
+}
+.marginfooter {
+  background-color: #2f303a;
+  height: 252px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25))
+}
+.Marginfp{
+  margin-top: 82px;
+}
+.backtems{
+  background-color: #F5F4FA;
+  margin-top: 94px;
+}
+
+.servicebutton{
+  padding: 10px 32px;
+}

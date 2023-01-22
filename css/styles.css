@@ -198,6 +198,7 @@ address {
 
 .margin1 {
   background-color: #2f303a;
+  background-image:linear-gradient(rgba(35, 39, 50, 0.60), rgba(5,7,12,0.60)), url("../images/img_17.jpg");
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -368,3 +369,4 @@ width:370px ;
 .servicebutton{
   padding: 10px 32px;
 }
+

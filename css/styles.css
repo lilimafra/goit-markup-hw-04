@@ -373,22 +373,24 @@ width:370px ;
   padding: 10px 32px;
 }
 
-.icon_email{
+.mail{
   width: 16px;
   height:12 px;
   margin-right: 10px;
+  fill: #757575;
+  cursor: pointer;
 }
-.icon_email:hover{ 
-  color: var(--brandcolor);
-  text-decoration: none;
+.mail:hover{ 
+  fill: var(--brandcolor);
 }
 
 .cel{
   width: 10px;
   margin-left: 30px;
   margin-right: 10px ;
+  fill: #757575;
+  cursor: pointer;
 }
 .cel:hover {
-  color: var(--brandcolor);
-  text-decoration: none;
+  fill: var(--brandcolor);
 }

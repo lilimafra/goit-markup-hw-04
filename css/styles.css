@@ -94,7 +94,7 @@ h2 {
   display: flex;
   justify-content: space-evenly;
   justify-content: left;
-  padding-top: 95px;
+  padding-top: 30px;
   gap: 37px;
 }
 
@@ -306,7 +306,6 @@ gap: 30.26px;
 padding: 0;
 }
 
-
 .button_ser{
   align-items: center;
   justify-content: center;
@@ -374,6 +373,7 @@ width:370px ;
 }
 
 .mail{
+  display: block;
   width: 16px;
   height:12 px;
   margin-right: 10px;
@@ -385,6 +385,7 @@ width:370px ;
 }
 
 .cel{
+  display: block;
   width: 10px;
   margin-left: 30px;
   margin-right: 10px ;
@@ -393,4 +394,26 @@ width:370px ;
 }
 .cel:hover {
   fill: var(--brandcolor);
+}
+.icons_services {
+  background-color:#F5F4FA;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 270px;
+  height: 120px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  
+}
+.icon_size{
+  width:70px;
+  height:70px;
+  }
+
+.work{
+text-align: center;
+background-color: #757575;
+position: relativab;
+
 }

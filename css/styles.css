@@ -494,11 +494,11 @@ fill: #ffffff;
   height: 52px;
 }
 
-.icon_customer :hover{
+.icon_customer:hover{
   border-color: #2196f3;
   fill: var(--brandcolor);
 }
-.icon_customer :focus{
+.icon_customer:focus{
   border-color: #2196f3;
   fill: var(--brandcolor);
 }

@@ -246,6 +246,15 @@ footer .mt {
   padding-left: 15px;
   padding-right: 15px;
 }
+
+.containerfooter{
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  gap: 100px;
+}
+
 .containerteam{
   background-color: #F5F4FA;
   height: 648px;
@@ -475,16 +484,66 @@ fill: #ffffff;
 .icon_customer{
   border-radius: 4px;
   padding: 14px 32px;
-  fill: #AFB1B8;
   border: 1px solid;
   cursor: pointer;
   border-color: #AFB1B8;
+  fill: #AFB1B8;
 }
 .icon_cus{
   width: 106px;
   height: 52px;
 }
+
 .icon_customer :hover{
+  border-color: #2196f3;
   fill: var(--brandcolor);
-  border-color: #2196f3
+}
+.icon_customer :focus{
+  border-color: #2196f3;
+  fill: var(--brandcolor);
+}
+.container_socialf{
+  display: table-column;
+  flex-direction: row;
+  gap: 50px;
+}
+.social_footer{
+display: flex;
+padding-inline-start: 0;
+justify-content: center;
+gap: 10px;
+}
+.Social_web{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.8;
+  color: #ffffff;
+  display: flex;
+  align-items:flex-end;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.socialf{
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  justify-content: center;
+  margin-right: 10px;
+  cursor: pointer;
+  align-items: center;
+}
+.icon_socialf{
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
+  display:block
+}
+
+.socialf:hover{
+  background-color: var(--brandcolor);
 }

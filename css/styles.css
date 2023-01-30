@@ -406,7 +406,7 @@ width:370px ;
   height: 12px;
   align-items: center;
 }
- .c_mt:hover , .mail:hover{
+.c_mt:hover , .mail:hover{
   color: var(--brandcolor);
   fill: var(--brandcolor);
 }

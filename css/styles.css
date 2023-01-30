@@ -274,7 +274,9 @@ footer .mt {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 1px 1px rgba(0, 0, 0, 0.16);
   border-radius: 0px 0px 4px 4px;
 }
-
+.line{
+  border-bottom: 2px solid #ECECEC
+}
 .headb {
   background: #ffffff;
   display: flex;
@@ -282,7 +284,6 @@ footer .mt {
   height: 80px;
   align-items: center;
 }
-
 .cont_nav {
   display: flex;
 }

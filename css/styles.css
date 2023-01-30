@@ -72,7 +72,7 @@ h1 {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  padding-bottom: 55px;
+  padding-bottom: 50px;
   padding-top: 55px;
   line-height: 1.166em;
   text-align: center;
@@ -169,6 +169,7 @@ address {
   font-size: 18px;
   color: var(--basecolor);
   line-height: 2;
+  padding-top: 20px;
 }
 
 .productsd{
@@ -211,7 +212,7 @@ address {
 .team {
   display: flex;
   justify-content: center;
-  gap: 37px;
+  gap: 30px;
 }
 
 ul {
@@ -246,6 +247,9 @@ footer .mt {
   padding-left: 15px;
   padding-right: 15px;
 }
+.cr{
+  padding-bottom:0px ;
+}
 
 .containerfooter{
   width: 1200px;
@@ -257,7 +261,7 @@ footer .mt {
 
 .containerteam{
   background-color: #F5F4FA;
-  height: 648px;
+  padding-bottom: 94px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -291,9 +295,7 @@ footer .mt {
 
 }
 
-.contact{
-  display: flex;
-}
+
 .contact_li{
   display: flex;
   align-items: center;
@@ -314,7 +316,6 @@ footer .mt {
   gap: 30px;
   justify-content: space-between;
   position: relative;
-  margin-top: 50px;
 }
 
 .button_ser{
@@ -383,29 +384,46 @@ width:370px ;
   padding: 10px 32px;
 }
 
+
+.c_mt{
+  display: flex;
+  gap: 10px;
+}
+
 .mail{
-  display: block;
+  display: flex;
   width: 16px;
-  height:12 px;
-  margin-right: 10px;
+  height:12px;
   fill: #757575;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  margin:0;
 }
-.mail:hover{ 
+
+.i_contact{
+  height: 12px;
+  align-items: center;
+}
+.c_mt:hover , .mail:hover{
+  color: var(--brandcolor);
+  fill: var(--brandcolor);
+}
+.c_mt:hover , .cel:hover{
+  color: var(--brandcolor);
   fill: var(--brandcolor);
 }
 
 .cel{
-  display: block;
+  display: flex;
   width: 10px;
   margin-left: 30px;
-  margin-right: 10px ;
   fill: #757575;
   cursor: pointer;
+  height: 16px;
+  justify-content: center;
 }
-.cel:hover {
-  fill: var(--brandcolor);
-}
+
 .icons_services {
   background-color:#F5F4FA;
   display: flex;
@@ -477,7 +495,7 @@ fill: #ffffff;
   justify-content: center;
   align-items: center;
   gap: 30px;
-  padding-bottom: 130px;
+  padding-bottom: 151px;
   margin-top: 44px;
 }
 

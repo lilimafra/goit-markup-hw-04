@@ -275,7 +275,7 @@ footer .mt {
   border-radius: 0px 0px 4px 4px;
 }
 .line{
-  border-bottom: 2px solid #ECECEC
+  border-bottom: 1px solid #ECECEC
 }
 .headb {
   background: #ffffff;
@@ -399,7 +399,6 @@ width:370px ;
   cursor: pointer;
   justify-content: center;
   align-items: center;
-  margin:0;
 }
 
 .i_contact{
@@ -410,10 +409,11 @@ width:370px ;
   color: var(--brandcolor);
   fill: var(--brandcolor);
 }
-.c_mt:hover , .cel:hover{
+.cel:hover{
   color: var(--brandcolor);
   fill: var(--brandcolor);
 }
+
 
 .cel{
   display: flex;
